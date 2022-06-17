@@ -1,11 +1,10 @@
-name: Fixes
+name: Private
 on:
   push:
     # This runs on fork branches too
     branches: ["*"]
-  workflow_dispatch:
 jobs:
-  test:
+  private:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

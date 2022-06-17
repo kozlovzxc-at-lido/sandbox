@@ -1,4 +1,4 @@
-name: Pull Request CI
+name: Public
 on:
   pull_request:
     branches: [master]
