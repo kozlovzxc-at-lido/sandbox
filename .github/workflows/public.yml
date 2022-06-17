@@ -1,0 +1,9 @@
+name: Pull Request CI
+on:
+  pull_request:
+    branches: [master]
+jobs:
+  pull_request_ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
